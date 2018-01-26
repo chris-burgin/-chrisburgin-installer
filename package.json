@@ -1,0 +1,28 @@
+{
+  "name": "@chrisburgin/installer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cbinstall": "lib/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chrisburgin/eslint-config": "^1.0.0",
+    "@chrisburgin/prettier-config": "^1.0.0",
+    "chalk": "^2.3.0",
+    "cli": "^1.0.1",
+    "eslint": "^4.16.0",
+    "eslint-plugin-react": "^7.6.0",
+    "fs-extra": "^5.0.0",
+    "npm": "^5.6.0"
+  },
+  "peerDependencies": {
+    "@chrisburgin/eslint-config": ">= 1.0.0",
+    "@chrisburgin/prettier-config": ">= 1.0.0"
+  }
+}
