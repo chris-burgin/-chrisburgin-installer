@@ -1,6 +1,6 @@
 {
   "name": "@chrisburgin/installer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
@@ -8,6 +8,10 @@
   },
   "bin": {
     "cbinstall": "lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisburgin95/-chrisburgin-installer.git"
   },
   "author": "",
   "license": "ISC",
