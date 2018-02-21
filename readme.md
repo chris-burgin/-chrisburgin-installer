@@ -2,7 +2,7 @@
 Config Installer and Manager for common config files across my projects.
 
 ## Install
-`npm install chrisburgin-common-tools -g`
+`npx chrisburgin/installer install`
 
 ## Usage
 `cbinstall install`
